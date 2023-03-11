@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/********** Large devices **********/
+
+@media (min-width: 992px) {
+
+    p {
+        margin:5%;
+        font-family: 'Lucida Sans';
+    }
+
+    h1 {
+        margin:3%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+    }
+
+    h2 {
+        margin:2%;
+        margin-top: 0%;
+        padding:2%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+        border:  1px solid rgb(0, 0, 0);
+        position: relative;
+        left: 58%;
+        width: 40%;
+        background-color: aqua; 
+    }
+
+    #h2_1 {
+        background-color: rgb(192, 115, 147); 
+    }
+
+    #h2_2 {
+        background-color: rgb(180, 30, 30); 
+        color: aliceblue;
+    }
+
+    #h2_3 {
+        background-color: rgb(230, 231, 179); 
+    }
+
+    #bod_div {
+        margin: 2%;
+        margin-left:3%;
+        width: 96%;
+    }
+
+    .main {
+        border: 1px solid rgb(0, 0, 0);
+        width: 30%;
+        background-color: rgb(173, 173, 173);
+    }
+
+    #main1 {
+        margin-left: 2%;
+        float: left;
+    }
+
+    #main2 {
+        margin-left: 2%;
+        float: left;
+    }
+
+    #main3 {
+        margin-left: 2%;
+        float: left;
+    }
+}
+
+/********** Medium devices **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    p {
+        margin:3%;
+        font-family: 'Lucida Sans';
+    }
+    
+    h1 {
+        margin:3%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+    }
+    
+    h2 {
+        margin:2%;
+        margin-top: 0%;
+        padding:2%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+        border:  1px solid rgb(0, 0, 0);
+        position: relative;
+        left: 58%;
+        width: 40%;
+        background-color: aqua; 
+    }
+    
+    #h2_1 {
+        background-color: rgb(192, 115, 147); 
+    }
+    
+    #h2_2 {
+        background-color: rgb(180, 30, 30); 
+        color: aliceblue;
+    }
+    
+    #h2_3 {
+        background-color: rgb(230, 231, 179); 
+        left: 78%;
+        width: 20%;
+        margin-bottom: 0%;
+        padding:1%;
+    }
+    
+    #bod_div {
+        margin: 2%;
+        margin-left:4%;
+        width: 96%;
+    }
+    
+    .main {
+        border: 1px solid rgb(0, 0, 0);
+        width: 30%;
+        background-color: rgb(173, 173, 173);
+    }
+    
+    #main1 {
+        margin-left: 2%;
+        float: left;
+        width: 45%;
+    }
+    
+    #main2 {
+        margin-left: 2%;
+        float: left;
+        width: 45%;
+    }
+    
+    #main3 {
+        margin-top: 2%;
+        margin-left: 2%;
+        width: 92%;
+        float: left;
+    }
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+
+    p {
+        margin:5%;
+        font-family: 'Lucida Sans';
+    }
+    
+    h1 {
+        margin:3%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+    }
+    
+    h2 {
+        margin:2%;
+        margin-top: 0%;
+        padding:2%;
+        text-align: center;
+        font-family: 'Lucida Sans';
+        border:  1px solid rgb(0, 0, 0);
+        position: relative;
+        left: 58%;
+        width: 40%;
+        background-color: aqua; 
+    }
+    
+    #h2_1 {
+        background-color: rgb(192, 115, 147); 
+    }
+    
+    #h2_2 {
+        background-color: rgb(180, 30, 30); 
+        color: aliceblue;
+    }
+    
+    #h2_3 {
+        background-color: rgb(230, 231, 179); 
+    }
+    
+    #bod_div {
+        margin: 2%;
+        width: 96%;
+        margin-left:5%;
+        margin-right: 0%;
+    }
+    
+    .main {
+        border: 1px solid rgb(0, 0, 0);
+        width: 92%;
+        background-color: rgb(173, 173, 173);
+    }
+    
+    #main1 {
+        margin-left: 2%;
+        float: left;
+        margin-top: 4%;
+    }
+    
+    #main2 {
+        margin-left: 2%;
+        float: left;
+        margin-top: 4%;
+    }
+    
+    #main3 {
+        margin-left: 2%;
+        float: left;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+}
